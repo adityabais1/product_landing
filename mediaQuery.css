@@ -1,0 +1,74 @@
+/* Media Query */
+@media (max-width: 734px){
+    #header{
+        flex-direction: column;
+        height: fit-content;
+        padding-right: 0px;
+        position: static;
+    }
+    .nav-btns{
+        flex-direction: column;
+        margin: 85px 0 10px 0;
+    }
+    .logo-div{
+        width: 100%;
+        /* align-items: center; */
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        background-color: rgb(13, 13, 13);
+        z-index: 9;
+        height: 80px;
+
+    }
+    #header-img{
+        height: 30px;
+        padding: 0;
+    }
+    .email-sec{
+        margin-top: 40vh;
+    }
+
+    
+}
+
+@media(max-width: 1000px){
+    .cards{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 620px){
+    .features-box{
+        flex-direction: column;
+        /* border: 1px solid black; */
+        margin-top: 30px ;
+        border-bottom: 1px solid rgb(91, 91, 91);
+    }
+    #features-icon{
+        height: 90px;
+        align-self: center;
+        padding: 0 10px;
+        margin-bottom: 10px ;
+
+    }
+    #email-input{
+        width: 70vw;
+    }
+}
+
+@media(max-width: 520px) {
+    .title-text{
+        font-size: 50px;
+        box-sizing: border-box;
+    }
+    .yt-vid > iframe{
+        /* margin: 50px 0; */
+        width: 100%;
+    }
+}

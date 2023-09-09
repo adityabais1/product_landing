@@ -1,0 +1,33 @@
+.card:hover{
+
+    height: 320px;
+    width: 305px;
+    /* border: 1px solid rgba(69, 69, 69, 0.547); */
+    /* margin: 50px 20px;
+    background-color: white;
+    border-radius: 5px; */
+    box-shadow: 0 0 20px 5px rgba(77, 77, 77, 0.145);
+    transition: all 0.3s;
+}
+
+
+.card-content> button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 159, 3);
+}
+
+
+.nav-btn:hover{
+    background-color: rgba(252, 252, 252, 0.341);
+    border-radius: 5px;
+    color: rgb(255, 66, 66);
+}
+
+/* .card:hover{
+    filter: none;
+} */
+
+.submitBtn:hover{
+    cursor: pointer;
+    background-color: red;
+}
